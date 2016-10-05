@@ -1,5 +1,5 @@
 
-INCLUDE_FLAGS=-I/usr/include/eigen3 -I/usr/include/suitesparse
+INCLUDE_FLAGS=-I/usr/include/eigen3 -I/usr/include/suitesparse -std=c++11
 
 LIBS=-lg2o_core -lg2o_types_slam2d -lg2o_csparse_extension -lg2o_solver_csparse  -lg2o_stuff -lcxsparse -lg2o_opengl_helper
 
